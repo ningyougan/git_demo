@@ -28,7 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Setup Nodejs
         run: actions/setup-node@v2
-        run: echo 'Nodejs already'
+
+      - run: echo 'Nodejs already'
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
